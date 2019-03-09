@@ -1,0 +1,221 @@
+//------------------------
+//PATRON DE COLORES
+//-----------------------
+$texto:#111111;
+$principal:#12AFAF;
+$secundario:#009500;
+
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: $texto;
+}
+.bienvenidos{
+    background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.encabezado{
+    background: $texto;
+    color: #FFF;
+    padding: 0.5rem 0;
+}
+.encabezado .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.encabezado .logo img{
+    width: 150px;
+    height: auto;
+}
+/*Estilos para el boton: buscar y menu*/
+.boton-buscar, .boton-menu{
+    border: 0;
+    font-size: 2rem;
+    padding: 0.5rem;
+    background: transparent;
+    color: #FFF;
+}
+/*la propiedad focus le quita el marcado*/
+.boton-buscar:focus,
+.boton-menu:focus,
+.contenedor-bloque-buscar input[type="text"],
+[type="submit"]{
+    outline: 0;
+}
+
+/*Alinear boton a la derecha*/
+.boton-buscar{
+    margin-left: auto;
+    margin-right: 0.8rem;
+}
+
+/*Estilos Bloque Buscar*/
+#bloque-buscar{
+    flex: 1 1 100%;
+}
+
+.contenedor-bloque-buscar{
+    display: flex;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.contenedor-bloque-buscar input[type="text"]{
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+}
+
+.contenedor-bloque-buscar input[type="submit"]{
+    flex: 1 1 auto;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background: $principal;
+    color: #fff;
+}
+#menu-principal{
+    flex: 1 1 100%;
+}
+
+#menu-principal ul{
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0 0;
+}
+#menu-principal ul a{
+    display: block;
+    padding: 0.8rem 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase; 
+    border-top: 1px solid rgb(78, 76, 76);
+    text-decoration: none;
+}
+
+#menu-principal ul a:hover,
+#menu-principal ul li.active a{
+    color: $principal;
+}
+
+.texto-encabezado .display-4{
+    margin-top: 5rem;
+}
+.texto-encabezado{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary{
+    color: #fff;
+    background: $principal;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover,
+.btn-primary:not(:disabled):not(.disabled):active{
+    background: $secundario;
+    border-color: transparent;
+}
+.display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.flecha-bajar a{
+    display: inline-block;
+    color: #FFF;
+    font-size: 3.5rem;
+    animation: flecha-animada 2s ease-in-out infinite;    
+}
+
+@keyframes flecha-animada{
+    from{
+        transform: translateY(0)
+    }
+    50%{
+        transform: translateY(6px)
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
