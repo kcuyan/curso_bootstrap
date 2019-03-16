@@ -9,7 +9,10 @@
     <!--Cargando Fuentes-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <!--Cargando Iconos-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--Carga de Galeria de imagenes-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!--Carga de Archivos CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -17,13 +20,15 @@
 
 <body>
     <section class="bienvenidos">
-        <header class="encabezado navbar fixed-top" role="banner" >
+        <header class="encabezado navbar fixed-top" role="banner">
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="images/logo.svg" alt="logo del sitio">
                 </a>
-                <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false"><i class="fas fa-search"></i></button>
-                <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false"><i class="fas fa-align-justify"></i></button>
+                <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar"
+                    aria-expanded="false"><i class="fas fa-search"></i></button>
+                <button type="button" class="boton-menu" data-toggle="collapse" data-target="#menu-principal"
+                    aria-expanded="false"><i class="fas fa-align-justify"></i></button>
 
                 <form action="#" id="bloque-buscar" class="collapse">
                     <div class="contenedor-bloque-buscar">
@@ -45,9 +50,9 @@
 
         <div class="texto-encabezado text-center">
             <div class="container">
-            <h1 class="display-4">Diseño de APPS para empresas</h1>
-            <p>Creamos apliaciones según las necesidades y requirimientos de nuestros clientes.</p>
-            <a href="contacto.html" class="btn btn-primary btn-lg">Ponte en contato</a>
+                <h1 class="display-4">Diseño de APPS para empresas</h1>
+                <p>Creamos apliaciones según las necesidades y requirimientos de nuestros clientes.</p>
+                <a href="contacto.html" class="btn btn-primary btn-lg">Ponte en contato</a>
             </div>
         </div>
 
@@ -57,84 +62,170 @@
 
     </section>
 
-    <section class="agencia" id="agencia">
-        <h2>Agencia de Promación de apliaciones</h2>
-        <p>
-            t is a long established fact that a reader will be distracted by the readable content of a page when looking
-            at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-            as opposed to using 'Content here, content here', making it look like readable English.
-        </p>
-        <p>
-            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-            over the years, sometimes by accident, sometimes on purpose (injected humour and the like.
-        </p>
-        <img src="images/agencia.svg" alt="agencia">
+    <section class="agencia py-2" id="agencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-xl-9">
+                    <h2 class="h4 text-center font-weight-bold text-md-left">Agencia de Promación de apliaciones</h2>
+                    <p>
+                        t is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking.
+                    </p>
+                    <p>
+                        t is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking
+                        at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of
+                        letters,
+                        as opposed to using 'Content here, content here', making it look like readable English.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3">
+                    <img src="images/agencia.svg" alt="agencia">
+                </div>
 
+            </div>
+        </div>
     </section>
 
-    <section class="tu-mejor-eleccion">
-        <h2>¿Porque somos <span>tu mejor elección?</span></h2>
-        <p>
-            Desarrollo web y Apps para empresas y profecionales
-        </p>
-        <ul>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Aplicaciones para la nube</h4>
-            </li>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Fábrica de software</h4>
-            </li>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Gestión en la nube</h4>
-            </li>
-        </ul>
 
-        <ul>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Videojuegos</h4>
-            </li>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Diseños personalizados</h4>
-            </li>
-            <li>
-                <img src="images/icono.svg" alt="">
-                <h4>Funciones a medidida</h4>
-            </li>
-        </ul>
+    <section class="tu-mejor-eleccion py-2">
+        <div class="container">
+            <h2 class="h4 text-center font-weight-bold">¿Porque somos <span>tu mejor elección?</span></h2>
+            <p class="text-center">
+                Desarrollo web y Apps para empresas y profecionales
+            </p>
+            <div class="row">
+                <ul class="col-6 col-lg-4 text-center text-lg-left">
+                    <li>
+                        <i class="fas fa-briefcase"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Aplicaciones para la nube</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Fábrica de software</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <i class="fas fa-cloud"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Gestión en la nube</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <div class="d-none d-lg-block col-lg-4">
+                    <img src="images/mundo.svg" alt="Mundo movil">
+                </div>
+
+                <ul class="col-6 col-lg-4 text-center text-lg-right">
+                    <li>
+                        <i class="fas fa-gamepad"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Videojuegos</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Diseños personalizados</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <i class="fas fa-cogs"></i>
+                        <div class="contenedor-eleccion">
+                            <h5>Funciones a medida</h5>
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Aperiam iusto veniam distinctio
+                                laudantium!</p>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <main class="servicios">
-        <h2>Nuestros Servicios</h2>
-        <article>
-            <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
-            <h3>Servicio Desarrollo de Aplicaciones Mobiles</h3>
-        </article>
-        <article>
-            <img src="images/servicio-2.svg" alt="Consultoria Tecnológica">
-            <h3>Consultoria Tecnológica</h3>
-        </article>
-        <article>
-            <img src="images/servicio-3.svg" alt="Marketing y publicidad Movil">
-            <h3>Marketing y publicidad Movil</h3>
-        </article>
+    <main class="servicios py-2">
+        <div class="container">
+            <h2 class="h4 text-center font-weight-bold">Nuestros Servicios</h2>
+            <div class="row">
+                <article class="col-md-4">
+                    <img src="images/servicio-1.svg" alt="Servicio Desarrollo de Aplicaciones Mobiles">
+                    <h3><a href="#">Desarrollo de Aplicaciones Mobiles</a></h3>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                        voluptate explicabo nisi porro reiciendis.</p>
+                    <button type="button" class="btn btn-secondary d-none d-md-block">Más información</button>
+                </article>
+                <article class="col-md-4">
+                    <img src="images/servicio-2.svg" alt="Consultoria Tecnológica">
+                    <h3><a href="#">Consultoria Tecnológica</a></h3>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                        voluptate explicabo nisi porro reiciendis.</p>
+                    <button type="button" class="btn btn-secondary d-none d-md-block">Más información</button>
+                </article>
+                <article class="col-md-4">
+                    <img src="images/servicio-3.svg" alt="Marketing y publicidad Movil">
+                    <h3><a href="">Marketing y publicidad Movil</a></h3>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                        voluptate explicabo nisi porro reiciendis.</p>
+                    <button type="button" class="btn btn-secondary d-none d-md-block">Más información</button>
+                </article>
+            </div>
+        </div>
     </main>
 
     <section class="ultimos-proyectos">
         <h2>Últimos Proyectos</h2>
-        <a href="#">
-            <h4>App Lima Travels</h4>
-            <img src="images/proyecto1.jpg" alt="Proyecto App lima Travels">
-        </a>
+        <div class="owl-carousel">
+            <a href="#">
+                <h4>App Lima Travels</h4>
+                <img src="images/proyecto1.jpg" alt="Proyecto App lima Travels">
+            </a>
+
+            <a href="#">
+                <h4>App Uber</h4>
+                <img src="images/proyecto2.jpg" alt="Proyecto App lima Travels">
+            </a>
+
+            <a href="#">
+                <h4>App Pizza Guatemala</h4>
+                <img src="images/proyecto3.jpg" alt="Proyecto App lima Travels">
+            </a>
+
+            <a href="#">
+                <h4>App Muebles hoy</h4>
+                <img src="images/proyecto4.jpg" alt="Proyecto App lima Travels">
+            </a>
+        </div>
     </section>
 
     <footer class="piedepagina" role="contentinfo">
-        <p>2016 © NERWORK Todos los derechos reservados</p>
+        <p>2019 © NERWORK Todos los derechos reservados</p>
         <ul>
             <li>
                 <a href="#">Facebook</a>
@@ -154,6 +245,8 @@
     <!--Carga de archivos JS-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
