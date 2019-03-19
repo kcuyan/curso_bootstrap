@@ -270,4 +270,92 @@ SECCION NUESTROS SERVICIOS
   opacity: 1;
   color: #12AFAF; }
 
+/*----------------------------
+Ultimos Proyectos - Galeria
+------------------------------*/
+.ultimos-proyectos a {
+  text-decoration: none; }
+
+.ultimos-proyectos a h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #111111; }
+
+.ultimos-proyectos .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.3rem 0; }
+
+.ultimos-proyectos .owl-nav button.owl-prev,
+.ultimos-proyectos .owl-nav button.owl-next {
+  color: #12AFAF;
+  font-size: 3rem;
+  margin: 0.5rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  outline: none; }
+
+.ultimos-proyectos .owl-nav button.owl-prev:hover,
+.ultimos-proyectos .owl-nav button.owl-next:hover {
+  color: #0da04f; }
+
+/*----------------------------
+Pie de Pagina
+------------------------------*/
+.piedepagina {
+  background: #111111;
+  color: #fff;
+  text-align: center;
+  font-size: 0.85rem; }
+
+.piedepagina {
+  padding-top: 0.5rem; }
+
+.piedepagina .redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.piedepagina .redes-sociales .fab {
+  font-size: 2rem;
+  margin: 1rem;
+  color: #fff;
+  opacity: .7;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.piedepagina .redes-sociales .fab:hover {
+  opacity: 1; }
+
+/*----------------------------
+Ir hacia arriba
+------------------------------*/
+.ir-arriba {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #111111;
+  text-decoration: none;
+  color: #12AFAF;
+  opacity: 0.9;
+  z-index: 99999; }
+
+.ir-arriba:hover,
+.ir-arriba:focus {
+  outline: 0;
+  text-decoration: none;
+  color: #fff; }
+
 /*# sourceMappingURL=styles.css.map */

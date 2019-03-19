@@ -256,7 +256,94 @@ SECCION NUESTROS SERVICIOS
     color: $principal;
 }
 
+/*----------------------------
+Ultimos Proyectos - Galeria
+------------------------------*/
 
+.ultimos-proyectos a{
+    text-decoration: none;
+}
+.ultimos-proyectos a h4{
+   font-size: 1.1rem;
+   font-weight: bold;
+   text-align: center;
+   color: $texto;
+}
+
+.ultimos-proyectos .owl-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem 0;
+}
+
+.ultimos-proyectos .owl-nav button.owl-prev,
+.ultimos-proyectos .owl-nav button.owl-next{
+    color: $principal;
+    font-size: 3rem;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+.ultimos-proyectos .owl-nav button.owl-prev:hover,
+.ultimos-proyectos .owl-nav button.owl-next:hover{
+    color: $secundario;
+}
+
+/*----------------------------
+Pie de Pagina
+------------------------------*/
+.piedepagina{
+    background: $texto;
+    color: #fff;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.piedepagina{
+    padding-top: 0.5rem;
+}
+
+.piedepagina .redes-sociales{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.piedepagina .redes-sociales .fab{
+    font-size: 2rem;
+    margin: 1rem;
+    color:#fff;
+    opacity: .7;
+    transition: all 0.5s ease;
+}
+
+.piedepagina .redes-sociales .fab:hover{
+    opacity: 1;
+}
+
+/*----------------------------
+Ir hacia arriba
+------------------------------*/
+.ir-arriba{
+position: fixed;
+bottom: 1rem;
+right: 1rem;
+font-size: 3rem;
+color: $texto;
+text-decoration: none;
+color: $principal;
+opacity: 0.9;
+z-index: 99999;
+}
+
+.ir-arriba:hover,
+.ir-arriba:focus{
+    outline: 0;
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
