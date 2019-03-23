@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+
 $('.owl-carousel').owlCarousel({
   loop: true,
   margin: 0,
